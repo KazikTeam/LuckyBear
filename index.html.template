@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header-logo">
+          <img class="logo-icon" src="assets/logo-full 1.png" alt="LUCKY BEAR" />
+        </div>
+        <nav class="navbar">
+          <a href="${GAME_URL}" class="nav-link">ИГРЫ</a>
+          <a href="${GAME_URL}" class="nav-link">БОНУСЫ</a>
+          <a href="${GAME_URL}" class="nav-link">О НАС</a>
+          <a href="${TELEGRAM_URL}" class="btn-login">ВОЙТИ</a>
+        </nav>
+      </header>
+
+      <main class="main">
+        <section class="hero">
+          <div class="hero-logo-wrap">
+            <img class="hero-logo" src="assets/Group 118.png" alt="" />
+          </div>
+          <h1 class="hero-title">
+            <span class="hero-title-line1"><span class="title-accent">LUCKY BEAR</span> - ТВОЙ ШАНС</span><br>
+            <span class="hero-title-line2">НА УСПЕХ</span>
+          </h1>
+          <p class="hero-subtitle">Официальное онлайн казино LuckyBear – ваш путь к удаче! Получите бонус до 360% + 200 фриспинов!</p>
+          <div class="hero-buttons">
+            <a href="${GAME_URL}" class="btn btn-cta">
+              <span class="btn-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+              играть на сайте
+            </a>
+            <a href="${TELEGRAM_URL}" class="btn btn-cta">
+              <span class="btn-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.37.12.08.08.1.19.04.3z"/></svg></span>
+              играть в ТГ
+            </a>
+          </div>
+        </section>
+
+        <section class="games" id="games">
+          <h2 class="section-title"><span class="title-accent">ИГРЫ</span> НА ЛЮБОЙ ВКУС</h2>
+          <p class="section-subtitle">И самые большие шансы на победу - только у нас</p>
+          <div class="games-slider-wrap">
+            <div class="games-slider-track">
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game1.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game2.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game3.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game4.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game5.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game6.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game7.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game8.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game9.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game10.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game11.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game1.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game2.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game3.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game4.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game5.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game6.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game7.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game8.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game9.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game10.png" alt="" /></a>
+              <a href="${GAME_URL}" class="games-slide"><img src="assets/game11.png" alt="" /></a>
+            </div>
+          </div>
+        </section>
+
+        <section class="advantages" id="advantages">
+          <h2 class="section-title">НАШИ <span class="title-accent">ПРЕИМУЩЕСТВА</span></h2>
+          <p class="section-subtitle">Только факты, никакого обмана</p>
+          <div class="advantages-grid">
+            <div class="advantage-card">
+              <div class="advantage-head">
+                <div class="advantage-icon" aria-hidden="true">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <h3 class="advantage-title">Гарантия</h3>
+              </div>
+              <p class="advantage-text">Гарантия честной игры и своевременных выплат. Мы работаем по лицензии и соблюдаем все обязательства перед игроками.</p>
+            </div>
+            <div class="advantage-card">
+              <div class="advantage-head">
+                <div class="advantage-icon" aria-hidden="true">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                </div>
+                <h3 class="advantage-title">Надёжность</h3>
+              </div>
+              <p class="advantage-text">Лицензированная платформа и надёжная защита персональных данных. Ваша информация в безопасности.</p>
+            </div>
+            <div class="advantage-card">
+              <div class="advantage-head">
+                <div class="advantage-icon" aria-hidden="true">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </div>
+                <h3 class="advantage-title">Удача</h3>
+              </div>
+              <p class="advantage-text">Щедрые бонусы, фриспины и акции для каждого. Увеличьте свой шанс на крупный выигрыш с первой ставки.</p>
+            </div>
+            <div class="advantage-card">
+              <div class="advantage-head">
+                <div class="advantage-icon" aria-hidden="true">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
+                </div>
+                <h3 class="advantage-title">Быстрые выплаты</h3>
+              </div>
+              <p class="advantage-text">Вывод выигрышей без задержек. Удобные способы пополнения и снятия средств, обработка в кратчайшие сроки.</p>
+            </div>
+            <div class="advantage-card">
+              <div class="advantage-head">
+                <div class="advantage-icon" aria-hidden="true">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                </div>
+                <h3 class="advantage-title">Поддержка</h3>
+              </div>
+              <p class="advantage-text">Служба поддержки на связи круглосуточно. Ответим на любой вопрос и поможем решить любую ситуацию.</p>
+            </div>
+            <div class="advantage-card">
+              <div class="advantage-head">
+                <div class="advantage-icon" aria-hidden="true">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                </div>
+                <h3 class="advantage-title">Честная игра</h3>
+              </div>
+              <p class="advantage-text">Проверенные слоты и сертифицированный генератор случайных чисел. Честные условия и прозрачные правила.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-logo">
+          <img class="footer-logo-img" src="assets/logo-full 1.png" alt="LUCKY BEAR" />
+        </div>
+        <p class="footer-disclaimer">Играйте ответственно. Только для лиц старше 18 лет.</p>
+        <p class="footer-copy">© 2025 LuckyBear Casino (Лаки Бир). Все права защищены.</p>
+      </footer>
+    </div>
+  </body>
+</html>

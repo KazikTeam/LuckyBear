@@ -1,0 +1,9 @@
+services:
+  luckybear:
+    build: .
+    container_name: luckybear
+    restart: unless-stopped
+    ports:
+      - "8082:80"
+    env_file:
+      - .env
