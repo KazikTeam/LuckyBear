@@ -1,0 +1,68 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+:root {
+  --bg-dark: #111827;
+  --bg-card: #1F2937;
+  --accent-blue: #2A87F5;
+  --text-white: #ffffff;
+  --text-muted: rgba(255, 255, 255, 0.9);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: var(--bg-dark);
+}
+
+button:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.8) !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Palui SP Demo — для оглавлений */
+@font-face {
+  font-family: "Palui SP Demo";
+  src: url('assets/PaluiSPDemo-Bold.woff') format('woff'),
+       url('assets/PaluiSPDemo-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Etude Noire — для содержания */
+@font-face {
+  font-family: "Etude Noire";
+  src: url('assets/Etude-Noire-Bold.woff') format('woff'),
+       url('assets/Etude%20Noire%20Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Etude Noire";
+  src: url('assets/Etude-Noire-Bold.woff') format('woff'),
+       url('assets/Etude%20Noire%20Bold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Etude Noire";
+  src: url('assets/Etude-Noire-Bold.woff') format('woff'),
+       url('assets/Etude%20Noire%20Bold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

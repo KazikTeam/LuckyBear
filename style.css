@@ -1,0 +1,382 @@
+/* ========== PAGE ========== */
+.page {
+  min-height: 100vh;
+  background-color: var(--bg-dark);
+  background-image: url("assets/background.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--text-white);
+}
+
+/* ========== HEADER ========== */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 80px;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: var(--bg-dark);
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-icon {
+  height: 56px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 0 12px rgba(42, 135, 245, 0.35)) drop-shadow(0 0 24px rgba(42, 135, 245, 0.2));
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.nav-link {
+  font-family: "Etude Noire", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--text-white);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover {
+  opacity: 0.85;
+}
+
+.btn-login {
+  display: inline-block;
+  font-family: "Etude Noire", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #2B87F5;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 32px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.btn-login:hover {
+  opacity: 0.9;
+}
+
+/* ========== HERO ========== */
+.hero {
+  text-align: center;
+  padding: 60px 24px 80px;
+  margin: 0 auto;
+}
+
+.hero-logo-wrap {
+  display: inline-block;
+  margin-bottom: 50px;
+  line-height: 0;
+  vertical-align: top;
+}
+
+.hero-logo {
+  display: block;
+  width: 280px;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  margin: 60;
+  padding: 0;
+  vertical-align: top;
+  filter: drop-shadow(0 0 20px rgba(42, 135, 245, 0.4)) drop-shadow(0 0 40px rgba(42, 135, 245, 0.2));
+}
+
+.hero-title {
+  font-family: "Palui SP Demo", sans-serif;
+  font-weight: 700;
+  font-size: clamp(28px, 4.5vw, 44px);
+  color: var(--text-white);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 0.95;
+  margin: -8px 0 16px;
+  width: 100%;
+  padding: 0 24px;
+  box-sizing: border-box;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.25), 0 0 40px rgba(255, 255, 255, 0.1);
+}
+
+.hero-title-line1,
+.hero-title-line2 {
+  display: block;
+}
+
+.hero-title-line2 {
+  margin-top: -0.12em;
+}
+
+.hero-title .title-accent {
+  color: #2A87F5;
+  text-shadow: 0 0 20px rgba(42, 135, 245, 0.5), 0 0 40px rgba(42, 135, 245, 0.25);
+}
+
+.hero-subtitle {
+  font-family: "Etude Noire", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--text-white);
+  line-height: 1.5;
+  margin: 0 auto 24px;
+  max-width: 640px;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Etude Noire", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  width: 303px;
+  height: 40px;
+  padding: 0 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-cta {
+  color: #fff;
+  background-color: #2B87F5;
+  border: 2px solid #2B87F5;
+}
+
+.btn-cta .btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-cta .btn-icon svg {
+  flex-shrink: 0;
+}
+
+.btn-icon {
+  font-size: 18px;
+}
+
+/* ========== SECTIONS COMMON ========== */
+.section-title {
+  font-family: "Palui SP Demo", sans-serif;
+  font-weight: 700;
+  font-size: clamp(28px, 4vw, 42px);
+  color: var(--text-white);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin: 0 0 12px;
+  text-shadow: 0 0 16px rgba(255, 255, 255, 0.2), 0 0 32px rgba(255, 255, 255, 0.08);
+}
+
+.section-title .title-accent {
+  color: #2A87F5;
+  text-shadow: 0 0 16px rgba(42, 135, 245, 0.45), 0 0 32px rgba(42, 135, 245, 0.2);
+}
+
+.section-subtitle {
+  font-family: "Etude Noire", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--text-white);
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+/* ========== GAMES (слайдер справа налево) ========== */
+.games {
+  padding: 80px 0 100px;
+  margin: 0 auto;
+}
+
+.games-slider-wrap {
+  overflow: hidden;
+  width: 100%;
+}
+
+.games-slider-track {
+  display: flex;
+  gap: 40px;
+  width: max-content;
+  animation: games-scroll 50s linear infinite;
+}
+
+.games-slide {
+  display: block;
+  flex: 0 0 auto;
+  width: 260px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.games-slide:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.games-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  vertical-align: top;
+}
+
+@keyframes games-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* ========== ADVANTAGES ========== */
+.advantages {
+  padding: 0 24px 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.advantage-card {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+}
+
+.advantage-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.advantage-icon {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2589FF;
+}
+
+.advantage-icon svg {
+  flex-shrink: 0;
+}
+
+.advantage-title {
+  font-family: "Palui SP Demo", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #2589FF;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.advantage-text {
+  font-family: "Etude Noire", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ========== FOOTER ========== */
+.footer {
+  text-align: center;
+  padding: 48px 24px 32px;
+  background-color: var(--bg-dark);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-logo-img {
+  height: 44px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.95;
+  filter: drop-shadow(0 0 10px rgba(42, 135, 245, 0.3)) drop-shadow(0 0 20px rgba(42, 135, 245, 0.15));
+}
+
+.footer-disclaimer,
+.footer-copy {
+  font-family: "Etude Noire", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0 0 8px;
+}
+
+.footer-copy {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 900px) {
+  .header {
+    padding: 16px 24px;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .navbar {
+    gap: 24px;
+  }
+
+  .games-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .advantages-grid {
+    grid-template-columns: 1fr;
+  }
+}
